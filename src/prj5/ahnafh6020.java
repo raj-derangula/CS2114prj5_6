@@ -1,4 +1,5 @@
 package prj5;
+@SuppressWarnings("javadoc")
 public class ahnafh6020
 {
     // ----------------------------------------------------------
@@ -8,7 +9,7 @@ public class ahnafh6020
      */
     public static void main(String[] args) {
 
-        System.out.println("Glad to be on your team");
+        System.out.println("Glad to be on your team, from Ahnaf");
 
     }
 }
