@@ -1,7 +1,7 @@
 package prj5;
 
 import java.io.IOException;
- 
+
 /**
  * Runs Project 5.
  *
@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class ProjectRunner
 {
- 
+
     /**
      * Main method for the project.
      *
@@ -24,9 +24,9 @@ public class ProjectRunner
     {
         boolean showConsole = true;
         boolean showGUI = true;
- 
+
         InputFileReader filer;
- 
+
         if (args.length == 1)
         {
             filer = new InputFileReader(args[0]);
@@ -35,12 +35,12 @@ public class ProjectRunner
         {
             filer = new InputFileReader("SampleInput1_2023.csv");
         }
- 
+
         if (showConsole)
         {
             filer.printConsoleOutput();
         }
- 
+
         if (showGUI)
         {
             new GUIVisualization(filer.getData());
